@@ -1,0 +1,2 @@
+const e=document.getElementById("menuButton"),t=document.getElementById("dropdownMenu");e.onclick=function(e){e.stopPropagation(),t.classList.toggle("active")},document.onclick=function(c){e.contains(c.target)||t.contains(c.target)||t.classList.remove("active")};const c=document.querySelectorAll(".header__carousel-image");c.length,c.forEach((e,t)=>{e.classList.remove("active"),0===t&&e.classList.add("active")}),document.querySelector(".header__carousel-images").style.transform="translateX(0%)";
+//# sourceMappingURL=index.20530a5d.js.map
